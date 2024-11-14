@@ -20,6 +20,10 @@
 !fish/
 !fish/**
 
+# oh my fish
+!omf/
+!omf/**
+
 # specific files
 !starship.toml
 !.gitignore

@@ -4,10 +4,9 @@ end
 
 set -U EDITOR nvim
 
-alias s='kitten ssh'
-
 alias c='clear && cd'
 alias ls='eza --icons'
 alias cls='clear'
 
 starship init fish | source
+starship preset bracketed-segments -o ~/.config/starship.toml
