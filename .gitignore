@@ -1,0 +1,25 @@
+# ignore all files
+*
+
+
+# add only specified folders
+
+# i3wm
+!i3/
+!i3/**
+
+# polybar
+!polybar/
+!polybar/**
+
+# neovim
+!nvim/
+!nvim/**
+
+# fish
+!fish/
+!fish/**
+
+# specific files
+!starship.toml
+!.gitignore
