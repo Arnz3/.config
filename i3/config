@@ -231,6 +231,9 @@ bindsym $mod+r mode "resize"
 # add gaps
 gaps inner 10
 
+# change color
+client.focused          #ff6600 #ff6600 #ffffff #ff6600  #ff6600
+
 # start polybar
 exec bash .config/polybar/launch.sh
 
