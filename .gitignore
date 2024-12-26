@@ -24,6 +24,10 @@
 !omf/
 !omf/**
 
+# tmux
+!tmux/
+!tmux/**
+
 # specific files
 !starship.toml
 !.gitignore
