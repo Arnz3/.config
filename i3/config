@@ -239,5 +239,9 @@ exec bash .config/polybar/launch.sh
 # remove titlebars
 for_window [class="^.*"] border pixel 1
 
+# add autotiling for i3
+# https://github.com/nwg-piotr/autotiling
+exec_always --no-startup-id autotiling
+
 exec_always nitrogen --restore
 
