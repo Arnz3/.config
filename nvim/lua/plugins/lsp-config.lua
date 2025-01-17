@@ -49,10 +49,9 @@ return {
 
 			lspconfig.bashls.setup({ capabilities = capabilities })
 			lspconfig.clangd.setup({ capabilities = capabilities })
-			lspconfig.html.setup({ capabilities = capabilities })
+            lspconfig.html.setup({ capabilities = capabilities})
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.markdown_oxide.setup({ capabilities = capabilities })
-			lspconfig.ruff.setup({ capabilities = capabilities })
 			lspconfig.ts_ls.setup({ capabilities = capabilities })
 
 			-- Add a border to the hover-window
