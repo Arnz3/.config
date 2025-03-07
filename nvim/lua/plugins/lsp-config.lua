@@ -17,7 +17,7 @@ return {
             ensure_installed = {
                 "bashls",
                 "clangd",				-- C and C++
-                "html",
+                "emmet_language_server",
                 -- "ltex",					-- Latex
                 "lua_ls",
                 "markdown_oxide",
@@ -49,7 +49,7 @@ return {
 
 			lspconfig.bashls.setup({ capabilities = capabilities })
 			lspconfig.clangd.setup({ capabilities = capabilities })
-            lspconfig.html.setup({ capabilities = capabilities})
+            lspconfig.emmet_language_server.setup({ capabilities = capabilities})
 			lspconfig.lua_ls.setup({ capabilities = capabilities })
 			lspconfig.markdown_oxide.setup({ capabilities = capabilities })
 			lspconfig.ts_ls.setup({ capabilities = capabilities })

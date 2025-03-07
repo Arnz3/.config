@@ -37,3 +37,5 @@ end
 
 starship init fish | source
 starship preset bracketed-segments -o ~/.config/starship.toml
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
