@@ -50,23 +50,13 @@ return {
 					)
 				}),
 
-				sources = cmp.config.sources({
-					{ name = "nvim_lsp", priority = 8 },
-					{ name = "luasnip", priority = 7 },
-				}, {
-					{ name = "buffer", priority = 9 },
-				}),
+                sources = cmp.config.sources({
+                    { name = "nvim_lsp", priority = 8 },
+                    { name = "luasnip", priority = 7 },
+                }, {
+                        { name = "buffer", priority = 9 },
+                    }),
 
-				sorting = {
-					comparators = {
-						cmp.config.compare.locality,
-						cmp.config.compare.recently_used,
-						cmp.config.compare.score,
-						cmp.config.compare.offset,
-						cmp.config.compare.recently_used,
-						cmp.config.compare.order,
-					},
-				},
 			})
 		end,
 	}
