@@ -7,6 +7,7 @@ set -U EDITOR nvim
 alias c='clear && cd'
 alias ls='eza --icons'
 alias cls='clear'
+alias cd='z'
 
 # bash !! and !$ keybinds
 
@@ -37,5 +38,7 @@ end
 
 starship init fish | source
 starship preset bracketed-segments -o ~/.config/starship.toml
+
+zoxide init fish | source
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
